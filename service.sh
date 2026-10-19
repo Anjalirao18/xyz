@@ -1,13 +1,1 @@
-apiVersion: v1
-kind: Service
-metadata:
-  name: prt-cicd-service
-spec:
-  type: NodePort
-  selector:
-    app: prt-cicd
-  ports:
-    - protocol: TCP
-      port: 80
-      targetPort: 80
-      nodePort: 30080
+
